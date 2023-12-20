@@ -6,14 +6,14 @@ class Condition(Enum):
     INFO = "✅"
 
 
-class Logger:
+class Telebot:
 
-    def __init__(self, token, chat_id):
+    def __init__(self, token, chat_ids):
         self._token = token
-        self._chat_id = chat_id
+        self._chat_ids = chat_ids
         self._url = f"https://api.telegram.org/bot{token}/"
 
-    def log(self, message, condition=None):
+    def log(self, message, chat_id, condition=None):
         text = message
         if condition is not None:
             text = f"{condition.value} {text}"
@@ -22,11 +22,12 @@ class Logger:
         resp = requests.post(
             url=url,
             params = {
-                "chat_id": self._chat_id,
+                "chat_id": chat_id,
                 "text": text
             }
         )
         resp.raise_for_status()
 
     def info(self, message):
-        self.log(message, Condition.INFO)
+        for chat_id in self._chat_ids:
+            self.log(message, chat_id, Condition.INFO)

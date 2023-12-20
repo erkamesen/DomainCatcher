@@ -56,7 +56,7 @@ class DomainCatcher:
         domain_response["status_net"] = self.parser_helper(table, "field_statusnet")
         domain_response["status_org"] = self.parser_helper(table, "field_statusorg")
         domain_response["status_de"] = self.parser_helper(table, "field_statusde")
-        # domain_response["status_ld_registered"] = self.parser_helper(table, "field_status_ld_registered")
+        domain_response["status_ld_registered"] = self.parser_helper(table, "field_statustld_registered")
         domain_response["related_cnobi"] = self.parser_helper(table, "field_related_cnobi")
         domain_response["changes"] = self.parser_helper(table, "field_changes")
         domain_response["whois"] = self.parser_helper(table, "field_whois")

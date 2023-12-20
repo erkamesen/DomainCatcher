@@ -1,17 +1,16 @@
 # Save your amazing extensions for spesific searchs.
 # Extension List:
-"""
-- com  - net  - org  - biz  - info  - mobi  - name  - eu  - cat  - aero  - travel  - asia  - xxx  - pro  - tel  - jobs
-- ac   - ae   - af   - ag   - ai    - am    - ar    - as  - at   - au    - aw      - ax    - be   - bg   - bi   - bj   
-- bn   - bo   - br   - bw   - by    - bz    - ca    - cc  - ch   - ci    - cl      - cn    - co   - cr   - cx   - cz
-- de   - dk   - dm   - do   - ec    - ee    - es    - fi  - fm   - fo    - fr      - gd    - gg   - gi   - gl   - gs
-- gy   - hk   - hn   - hr   - ht    - hu    - id    - ie  - il   - im    - in      - io    - iq   - ir   - is   - it
-- je   - jp   - ke   - kg   - ki    - kr    - ky    - kz  - la   - lc    - li      - lt    - lu   - lv   - ly   - ma
-- md   - me   - mg   - mk   - mn    - ms    - mu    - mx  - nl   - nc    - nf      - ng    - no   - nu   - nz   - om
-- pe   - pf   - pl   - pm   - pr    - pt    - pw    - qa  - re   - ro    - rs      - ru    - rw   - sb   - sc   - se
-- sg   - sh   - si   - sk   - sm    - sn    - so    - st  - su   - sx    - tc      - tf    - th   - tl   - tn   - to
-- tr   - tv   - tw   - ua   - ug    - uk    - us    - uy  - uz   - vc    - vg      - wf    - yt   - za
-"""
+# - com  - net  - org  - biz  - info  - mobi  - name  - eu  - cat  - aero  - travel  - asia  - xxx  - pro  - tel  - jobs
+# - ac   - ae   - af   - ag   - ai    - am    - ar    - as  - at   - au    - aw      - ax    - be   - bg   - bi   - bj   
+# - bn   - bo   - br   - bw   - by    - bz    - ca    - cc  - ch   - ci    - cl      - cn    - co   - cr   - cx   - cz
+# - de   - dk   - dm   - do   - ec    - ee    - es    - fi  - fm   - fo    - fr      - gd    - gg   - gi   - gl   - gs
+# - gy   - hk   - hn   - hr   - ht    - hu    - id    - ie  - il   - im    - in      - io    - iq   - ir   - is   - it
+# - je   - jp   - ke   - kg   - ki    - kr    - ky    - kz  - la   - lc    - li      - lt    - lu   - lv   - ly   - ma
+# - md   - me   - mg   - mk   - mn    - ms    - mu    - mx  - nl   - nc    - nf      - ng    - no   - nu   - nz   - om
+# - pe   - pf   - pl   - pm   - pr    - pt    - pw    - qa  - re   - ro    - rs      - ru    - rw   - sb   - sc   - se
+# - sg   - sh   - si   - sk   - sm    - sn    - so    - st  - su   - sx    - tc      - tf    - th   - tl   - tn   - to
+# - tr   - tv   - tw   - ua   - ug    - uk    - us    - uy  - uz   - vc    - vg      - wf    - yt   - za
+
 extensions:
   - com
   - net
@@ -22,6 +21,6 @@ extensions:
 # Save Telegram Chat IDs. For learn:
 # https://diyusthad.com/2022/03/how-to-get-your-telegram-chat-id.html
 chat_ids:
-  - 
+  - 5641288499
 
 
