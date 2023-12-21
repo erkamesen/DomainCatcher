@@ -1,6 +1,7 @@
 from enum import Enum
 import requests
 
+
 class Condition(Enum):
 
     INFO = "✅"
@@ -21,7 +22,7 @@ class Telebot:
         url = self._url + "sendMessage"
         resp = requests.post(
             url=url,
-            params = {
+            params={
                 "chat_id": chat_id,
                 "text": text
             }
